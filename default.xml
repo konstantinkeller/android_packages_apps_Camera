@@ -16,11 +16,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="konstantinkeller/android_build">
+  <project path="build" name="konstantinkeller/android_build" revision="mr1-staging" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="konstantinkeller/android" />
+  <project path="android" name="konstantinkeller/android" revision="mr1-staging" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
