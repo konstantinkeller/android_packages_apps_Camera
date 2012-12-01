@@ -13,12 +13,15 @@ Then to sync up (This will take a while, so you might as well go get some coffee
 
     repo sync
 
-Next, download the prebuilts (You HAVE TO CD).
+Setup the Build Environment
+---------------------------
+
+Download the prebuilts (You HAVE TO CD).
 
     cd vendor/cm
     . get-prebuilts
 
-Now, setup the build environment.
+Now, setup the build environment (Run this from your working directory root).
 
     . build/envsetup.sh
 
