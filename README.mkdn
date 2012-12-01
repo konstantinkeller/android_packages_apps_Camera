@@ -9,6 +9,19 @@ To initialize your local repository using the Project Cold Fusion trees, use the
 
     repo init -u git://github.com/konstantinkeller/android.git -b mr1-staging
 
-Then to sync up:
+Then to sync up (This will take a while, so you might as well go get some coffee!):
 
     repo sync
+
+Next, download the prebuilts (You HAVE TO CD).
+
+    cd vendor/cm
+    . get-prebuilts
+
+Now, setup the build environment.
+
+    . build/envsetup.sh
+
+Finally, start the build for your device.
+
+    brunch <device eg. mako>
