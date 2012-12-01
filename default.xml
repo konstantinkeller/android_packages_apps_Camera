@@ -373,5 +373,4 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <project path="device/lge/mako" name="konstantinkeller/android_device_lge_mako" revision="mr1-staging" />
   <project path="vendor/lge/mako" name="konstantinkeller/vendor_lge_mako" revision="master" />
-  <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" revision="jellybean" />
 </manifest>
